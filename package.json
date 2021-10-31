@@ -1,0 +1,29 @@
+{
+  "name": "s3-bucket-download-as-folder",
+  "version": "1.0.0",
+  "description": "AWS S3 Bucket Download as Folder",
+  "main": "download.js",
+  "scripts": {
+    "start": "node download.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdullahercan/s3-bucket-download-as-folder.git"
+  },
+  "author": "abdullahercan <abdullahercan.dev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abdullahercan/s3-bucket-download-as-folder/issues"
+  },
+  "homepage": "https://github.com/abdullahercan/s3-bucket-download-as-folder#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1016.0",
+    "readline-sync": "^1.4.10"
+  },
+  "keywords": [
+    "nodejs",
+    "aws s3",
+    "aws s3 bucket downloader",
+    "s3 bucket download as folder"
+  ]
+}
